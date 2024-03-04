@@ -1,0 +1,8 @@
+*.npy
+*.json
+*.ply
+*.txt
+*.jpg
+*.png
+*.pyc
+*.zip
