@@ -1,0 +1,402 @@
+{
+    "0": [
+        {
+            "annotation_id": 0,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_0_2027_jpg.rf.2a7215c068d097cc30f0dc5a65d70fbe.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2027_jpg.rf.2a7215c068d097cc30f0dc5a65d70fbe.jpg",
+            "ferret_description": "The image features a wooden dining room chair [105, 31, 860, 965] with a brown leather seat [196, 41, 840, 615] [196, 41, 840, 615]. The chair is placed near a dining table [10, 198, 280, 293], and the seat of the chair is facing the table. The chair and the dining table are positioned in such a way that they create a comfortable and inviting atmosphere for dining or socializing.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 1,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_1_2027_jpg.rf.2a7215c068d097cc30f0dc5a65d70fbe.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2027_jpg.rf.2a7215c068d097cc30f0dc5a65d70fbe.jpg",
+            "ferret_description": "The chair [11, 37, 861, 985] [11, 37, 861, 985] [11, 37, 861, 985] is made of wood and has a leather seat [73, 31, 863, 705] [38, 41, 870, 979].\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        }
+    ],
+    "1": [
+        {
+            "annotation_id": 2,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_2_593_jpg.rf.828aad4dd891c930939b5ad6f5da9af1.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/593_jpg.rf.828aad4dd891c930939b5ad6f5da9af1.jpg",
+            "ferret_description": "The image features a close-up view [15, 10, 974, 974] of a brown leather chair [26, 31, 961, 451] [25, 34, 944, 769] with a metal table [190, 392, 989, 981] placed next to it. The chair [30, 38, 952, 774] has a unique design [49, 17, 288, 119], with its arms [24, 33, 949, 265] [49, 17, 288, 119] and back resembling those of a couch. It is situated in a room with a tiled floor, giving the space a modern and sophisticated touch. There is also a small part of another couch visible in the background.\u258c",
+            "llava_description": "The chair in the image is brown and made of wood."
+        }
+    ],
+    "10": [
+        {
+            "annotation_id": 17,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_17_240_jpg.rf.807eb537ba17edbbafe69250a3ec891b.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/240_jpg.rf.807eb537ba17edbbafe69250a3ec891b.jpg",
+            "ferret_description": "The image features a large stainless steel refrigerator [117, 19, 857, 979] with a freezer door [48, 81, 496, 993] [50, 18, 839, 986] [48, 81, 496, 993] [50, 18, 839, 986] [48, 81, 496, 993] [50, 18, 839, 986] and a handle. The refrigerator door is made of two layers of metal, giving it a shiny and modern appearance. The door is closed, and the refrigerator appears to be a large metallic unit, possibly made of stainless steel, which is known for its durability and sleek design.\u258c",
+            "llava_description": "The refrigerator in the image is silver and made of stainless steel."
+        }
+    ],
+    "11": [
+        {
+            "annotation_id": 18,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_18_1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "ferret_description": "The image features a chair [33, 42, 890, 981] [190, 57, 826, 815] and a table [15, 109, 905, 986] [15, 109, 905, 986] in a room [15, 109, 905, 986]. The chair is made of brown leather and has a padded, tufted effect. It is situated right in front of the table, which has a glass top. The chair appears to be shiny, possibly due to the leather material. The room has a tiled floor, and the chair and table setup appears to be placed in a dining area or a modern living space.\u258c",
+            "llava_description": "The chair in the image is brown and made of wood."
+        },
+        {
+            "annotation_id": 19,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_19_1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "ferret_description": "The image features a wooden dining room table [7, 113, 933, 986] [10, 120, 937, 603] with a large brown leather chair [44, 103, 922, 984] [184, 284, 814, 609] positioned next to it. The chair [184, 284, 814, 609] is made of wood and has a padded seat [184, 284, 814, 609], providing a comfortable seating option [184, 284, 814, 609] for the table. The table itself appears to be made of dark wood, offering a contrast to the brown leather chair. There is no one seated on the chair, and the table seems to be empty.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 20,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_20_1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "ferret_description": "The chair [14, 76, 982, 963] is made of brown leather [15, 78, 981, 974] [15, 78, 981, 974] and has a padded, comfortable design. It is situated next to a couch and a dining table, and the couch is brown in color.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        }
+    ],
+    "12": [
+        {
+            "annotation_id": 21,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_21_1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "ferret_description": "The image shows a close-up [14, 11, 977, 979] of a brown leather chair [196, 101, 850, 868] in a room with a table. The chair is positioned in front of the table, and it appears to be made of wood. There is a remote on the table, and the chair is situated next to the table, providing a comfortable seating area for someone to use the remote or enjoy a meal at the table.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 22,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_22_1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "ferret_description": "The image depicts a room with a large brown leather couch [114, 41, 862, 973] [188, 56, 820, 660] that takes up most of the space. The couch is facing a table, and there are two chairs placed near the couch, one on the left and one on the right. The room also features a window that allows natural light to enter the space.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 23,
+            "category_id": 3,
+            "category_name": "table",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/table_23_1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "description": "The brown wooden table.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "ferret_description": "The image shows a brown table [1, 43, 890, 988] [3, 45, 896, 543] with chairs [426, 258, 882, 995] [795, 101, 941, 997] around it.\u258c",
+            "llava_description": "The table in the image is brown and made of wood."
+        }
+    ],
+    "13": [
+        {
+            "annotation_id": 24,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_24_226_jpg.rf.9c1b74600cdcb2d12b1791fe514d490a.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/226_jpg.rf.9c1b74600cdcb2d12b1791fe514d490a.jpg",
+            "ferret_description": "The refrigerator [134, 5, 885, 994] in the image is made of stainless steel [739, 112, 824, 642] and has a silver and black color scheme. It features a large metal door [739, 112, 824, 642] with a silver handle [739, 112, 824, 642], giving it a modern and sleek appearance. The refrigerator's interior is silver and black as well, providing a contrast to the metallic exterior.\u258c",
+            "llava_description": "The refrigerator in the image is silver and made of stainless steel."
+        }
+    ],
+    "14": [
+        {
+            "annotation_id": 25,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_25_44_jpg.rf.e7ab840181ed1903f278438e683726ba.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/44_jpg.rf.e7ab840181ed1903f278438e683726ba.jpg",
+            "ferret_description": "The chair [27, 47, 828, 985] [103, 71, 749, 624] is made of wood [62, 35, 902, 805] and is placed against a wall [798, 132, 941, 830] [798, 132, 941, 830] [798, 132, 941, 830], likely in a dining area [27, 47, 828, 985]. The chair has a light brown color with a leather-like material [109, 90, 759, 481], giving it a comfortable and stylish appearance [109, 90, 759, 481].\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        }
+    ],
+    "15": [
+        {
+            "annotation_id": 26,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_26_2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "ferret_description": "The image features a wooden dining room chair [17, 19, 929, 986] [196, 25, 878, 716] with a brown leather seat [209, 17, 871, 587] [297, 40, 839, 445]. The chair is placed near a dining table [10, 90, 490, 275], which occupies a significant portion [10, 90, 490, 275] of the room. There are a few other chairs in the scene, one located to the right of the brown leather chair and another one further to the right. However, the brown leather chair is the central focus of the image.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 27,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_27_2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "ferret_description": "The object is a brown leather chair [10, 42, 832, 988].\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 28,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_28_2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "ferret_description": "The chair [0, 92, 808, 851] has a leather-like material [0, 39, 819, 857] and is situated in a room [10, 1, 985, 985] with a wooden table [699, 70, 993, 996].\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        }
+    ],
+    "16": [
+        {
+            "annotation_id": 29,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_29_1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "ferret_description": "The image features a wooden dining room table [102, 12, 982, 985] [102, 12, 982, 985] with a brown leather chair [191, 32, 921, 868] [191, 32, 921, 868] [191, 32, 921, 868] placed beside it. The chair is positioned in front of the table, inviting someone to sit and enjoy a meal. The dining table itself appears to be quite large, occupying a significant portion of the room. There are other chairs visible in the scene, but they are not as prominent as the brown leather chair near the dining table.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 30,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_30_1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "ferret_description": "The chair [102, 26, 940, 960] [180, 40, 937, 568] is made of brown leather and has a metal frame, making it a comfortable and stylish seating option [180, 40, 937, 568].\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 31,
+            "category_id": 5,
+            "category_name": "tv",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/tv_31_1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "description": "The tv is black and made of plastic.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "ferret_description": "The image features a large flat screen TV [166, 57, 910, 964] mounted on the wall. The television displays the volume as 5, which indicates that it is turned on. There is no specific content being shown on the screen, as it is an empty picture frame.\u258c",
+            "llava_description": "The television in the image is black and appears to be made of a reflective material, possibly metal or a metallic-looking plastic."
+        }
+    ],
+    "17": [
+        {
+            "annotation_id": 32,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_32_745_jpg.rf.4b61d7ab1d3b43ea230c7fa0e3b28366.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/745_jpg.rf.4b61d7ab1d3b43ea230c7fa0e3b28366.jpg",
+            "ferret_description": "The chair [126, 21, 909, 771] is made of brown leather [126, 21, 909, 771] and has a metal frame [19, 741, 923, 988] [19, 741, 923, 988] [19, 741, 923, 988]. It is situated next to other brown leather chairs and appears to be empty. The chair has a high back and a curved arm, making it a comfortable and stylish seating option.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        }
+    ],
+    "18": [
+        {
+            "annotation_id": 33,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_33_82_jpg.rf.b2894fee7e91a7a18c353e7f8ed3675d.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/82_jpg.rf.b2894fee7e91a7a18c353e7f8ed3675d.jpg",
+            "ferret_description": "The chair [155, 7, 989, 985] [155, 7, 989, 985] [155, 7, 989, 985] [155, 7, 989, 985] in the image is a wooden chair [155, 7, 989, 985] with a padded seat [295, 262, 808, 492] [159, 12, 985, 267] and back. It is situated in a room [15, 10, 985, 987] with a dining table next to it. The chair is positioned so that its back is facing the camera, providing a view of the back of the chair.\u258c",
+            "llava_description": "The chair in the image is brown and made of wood."
+        },
+        {
+            "annotation_id": 34,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_34_82_jpg.rf.b2894fee7e91a7a18c353e7f8ed3675d.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/82_jpg.rf.b2894fee7e91a7a18c353e7f8ed3675d.jpg",
+            "ferret_description": "The chair [63, 61, 940, 955] [232, 102, 903, 613] in the image is made of wood and has a brown color. It is placed on a tiled floor, which appears to be in a kitchen [63, 61, 940, 955] setting. The chair is positioned next to a dining table [33, 90, 903, 247], which occupies a significant portion of the room. There is also a cup on the table, adding to the domestic atmosphere of the scene.\u258c",
+            "llava_description": "The chair in the image is brown and made of wood."
+        }
+    ],
+    "19": [
+        {
+            "annotation_id": 35,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_35_653_jpg.rf.b54d0d8f536d4e97b5a4aa83c44bf2a9.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/653_jpg.rf.b54d0d8f536d4e97b5a4aa83c44bf2a9.jpg",
+            "ferret_description": "The image features a close-up view [10, 10, 980, 984] of the back of a brown leather couch or chair. The couch is situated in a room with a dining table next to it. On the table, there is a cup placed near the edge. The couch is positioned in the foreground, occupying most of the image, while the dining table is in the background.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        }
+    ],
+    "2": [
+        {
+            "annotation_id": 3,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_3_469_jpg.rf.0855d50f2d2330e5427f092706b98992.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/469_jpg.rf.0855d50f2d2330e5427f092706b98992.jpg",
+            "ferret_description": "The image features a metallic refrigerator [14, 27, 943, 977] with its door [777, 36, 997, 919] [7, 23, 889, 978] wide open, revealing its contents. The refrigerator appears to be made of stainless steel and has a mirror-like finish. It dominates a significant portion of the image, extending from the left to the right side.\u258c",
+            "llava_description": "The refrigerator in the image is silver and made of stainless steel."
+        }
+    ],
+    "3": [
+        {
+            "annotation_id": 4,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_4_183_jpg.rf.96c578333526c17384cf12ae3aca9efc.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/183_jpg.rf.96c578333526c17384cf12ae3aca9efc.jpg",
+            "ferret_description": "The image features a brown leather chair [115, 33, 908, 935] [180, 395, 844, 880] and a brown dining table [695, 81, 968, 297] [695, 81, 968, 297] placed next to each other. The chair is a leather computer chair with a comfortable, padded seat [180, 395, 844, 880] and backrest. The dining table appears to be made of wood and has a sleek, modern design. Both the chair and the dining table are positioned in a way that they face each other, creating a cozy and inviting atmosphere for conversation or dining.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 5,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_5_183_jpg.rf.96c578333526c17384cf12ae3aca9efc.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/183_jpg.rf.96c578333526c17384cf12ae3aca9efc.jpg",
+            "ferret_description": "The image features a large stainless steel refrigerator [13, 15, 977, 985] with a shiny chrome finish. The refrigerator takes up most of the image, and there is a small part [798, 206, 862, 304] of a white door visible towards the right side of the scene. The refrigerator appears to have a built-in vent [52, 483, 863, 631] and is placed near a wall. There is no additional content, such as food or labels, in the refrigerator, making the shiny metal surface the main focal point of the image.\u258c",
+            "llava_description": "The refrigerator in the image is silver and made of stainless steel."
+        }
+    ],
+    "4": [
+        {
+            "annotation_id": 6,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_6_2297_jpg.rf.6fe840feda9776d0f6e13094066aae65.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2297_jpg.rf.6fe840feda9776d0f6e13094066aae65.jpg",
+            "ferret_description": "The chair [122, 11, 819, 987] is brown and made of leather [56, 21, 341, 997].\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 7,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_7_2297_jpg.rf.6fe840feda9776d0f6e13094066aae65.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2297_jpg.rf.6fe840feda9776d0f6e13094066aae65.jpg",
+            "ferret_description": "The image features a brown leather chair [67, 28, 830, 965] [67, 28, 830, 965] [24, 13, 546, 949] and a brown leather couch [67, 28, 830, 965] [24, 13, 546, 949], both situated near a window [693, 1, 920, 93]. The chair is a brown padded armchair [67, 28, 830, 965] [24, 13, 546, 949] with a high back and is placed next to the couch. The couch is a bit longer and situated behind the chair, creating a comfortable sitting area. The view through the window offers a pleasant outlook, making this a cozy spot to relax and enjoy the view.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        }
+    ],
+    "5": [
+        {
+            "annotation_id": 8,
+            "category_id": 4,
+            "category_name": "trash_can",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/trash_can_8_1739_jpg.rf.52e153e4f97f129fd6fb166630844c08.jpg",
+            "description": "The trash can is gray and made of iron",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1739_jpg.rf.52e153e4f97f129fd6fb166630844c08.jpg",
+            "ferret_description": "The image features a gray trash [109, 44, 873, 944] can with a silver lid [109, 44, 873, 944], sitting next to a brown cardboard box [19, 310, 275, 936]. The trash can is large and seems to be made of stainless steel, while the box is of a lighter color, possibly brown or beige. There is no additional information regarding the contents of the trash can or the box.\u258c",
+            "llava_description": "The trash can in the image is gray and made of metal."
+        }
+    ],
+    "6": [
+        {
+            "annotation_id": 9,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_9_2329_jpg.rf.574ab8a4c57b4a8af5797c151adc6a1b.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2329_jpg.rf.574ab8a4c57b4a8af5797c151adc6a1b.jpg",
+            "ferret_description": "The image features a brown leather chair [172, 33, 910, 903] [172, 33, 910, 903] [172, 33, 910, 903] placed in front of a glass [490, 57, 991, 413] [490, 57, 991, 413] dining table [490, 57, 991, 413], likely made of glass as well. The chair is positioned close to the table, providing a comfortable seating area for dining or working on the computer. The room [14, 15, 978, 978] appears to be well-lit, with natural light possibly coming from the window. The chair is situated in front of the window, which could offer a pleasant view and a relaxing atmosphere for those using the chair.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 10,
+            "category_id": 4,
+            "category_name": "trash_can",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/trash_can_10_2329_jpg.rf.574ab8a4c57b4a8af5797c151adc6a1b.jpg",
+            "description": "The trash can is gray and made of iron",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2329_jpg.rf.574ab8a4c57b4a8af5797c151adc6a1b.jpg",
+            "ferret_description": "The image features a close-up view [30, 11, 966, 985] of a trash [43, 11, 963, 985] can with a plastic bag inside it. The trash can is large and gray, and it appears to be full, indicating that it's ready for disposal.\u258c",
+            "llava_description": "The trash can in the image is silver and made of metal."
+        }
+    ],
+    "7": [
+        {
+            "annotation_id": 11,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_11_1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "ferret_description": "The image features a close-up view [24, 15, 972, 981] of a brown leather desk [24, 15, 972, 981] or table. There is a chair positioned in front of the desk, tucked underneath it. The chair's color and material cannot be determined with certainty from the image. The desk takes up the majority of the image, and the chair is located towards the left side of the desk.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 12,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_12_1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "ferret_description": "The image features a dining room [10, 13, 977, 977] with a wooden table [41, 91, 963, 295] and two chairs [22, 16, 979, 977]. One of the chairs is a brown leather [39, 18, 977, 976] [47, 42, 959, 580] [47, 42, 959, 580] [47, 42, 959, 580] [47, 42, 959, 580] padded chair [39, 18, 977, 976] [47, 42, 959, 580], and the other chair is a regular chair [47, 42, 959, 580] with a leather seat [47, 42, 959, 580]. The padded chair is positioned closer to the table, while the other chair is located further away. There is also a small part [615, 761, 769, 816] of a third chair visible in the scene. The dining table appears to be quite large, occupying a significant portion of the room.\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 13,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_13_1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "ferret_description": "The object is a chair [54, 7, 995, 990], which appears to be made of wood [54, 16, 996, 990] and has a cushioned seat [54, 7, 995, 990].\u258c",
+            "llava_description": "The chair in the image is brown and made of leather."
+        },
+        {
+            "annotation_id": 14,
+            "category_id": 5,
+            "category_name": "tv",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/tv_14_1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "description": "The tv is black and made of plastic.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "ferret_description": "The image is a closeup picture of a trash can. It is a black trash can, made of plastic, with a white background around it. The trash can is the main focus of the image.\u258c",
+            "llava_description": "The television in the image is black and appears to be made of a reflective material, possibly metal or a metallic-looking plastic."
+        }
+    ],
+    "8": [
+        {
+            "annotation_id": 15,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_15_291_jpg.rf.79fed2ed61569ada48062780d8c70a11.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/291_jpg.rf.79fed2ed61569ada48062780d8c70a11.jpg",
+            "ferret_description": "The refrigerator door [112, 194, 879, 986] is made of stainless steel and has a silver finish.\u258c",
+            "llava_description": "The refrigerator in the image is silver and made of stainless steel."
+        }
+    ],
+    "9": [
+        {
+            "annotation_id": 16,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_16_201_jpg.rf.eb46f1526a8d6d6fc188534a225c6c94.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/201_jpg.rf.eb46f1526a8d6d6fc188534a225c6c94.jpg",
+            "ferret_description": "The image features a close-up view [19, 17, 970, 980] of a metallic refrigerator [19, 17, 970, 980] [132, 632, 862, 984] in a kitchen [19, 17, 970, 980]. The refrigerator has a stainless steel or chrome finish, with a small door handle [764, 11, 861, 45] [735, 10, 885, 46] attached to it. The handle [764, 11, 861, 45] is located on the right side of the refrigerator. The shiny surface of the refrigerator door reflects the room around it, giving a sense of depth and space.\u258c",
+            "llava_description": "The refrigerator in the image is silver and made of stainless steel."
+        }
+    ]
+}

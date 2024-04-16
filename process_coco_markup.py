@@ -1,3 +1,4 @@
+import argparse
 import cv2
 import json
 import os
@@ -5,7 +6,7 @@ import random
 
 from tqdm import tqdm
 
-from ferret_and_llava_api import describe_images, init_model
+from ferret_and_llava_api import describe_images, init_ferret, init_llava
 from kosmos2 import call_kosmos
 
 DESCRIPTION_PROMPT = "Describe the object in details"
@@ -91,18 +92,20 @@ def get_objects_from_coco_folder(coco_folder_path, scanrefer_markup, scene_id):
                 "description": chosen_description
             })
 
-        # print() 
-    
     return scenes
 
-def describe_with_ferret(scenes):
-    init_model(use_ferret=True)
+def describe_with_ferret(scenes, abstract_mode):
+    init_ferret()
    
     for scene_id in tqdm(scenes):
         scene_objects = scenes[scene_id]
         for obj_dict in scene_objects:
+            if abstract_mode:
+                object_info = "object"
+            else:
+                object_info = {obj_dict["category_name"]}
             prompt = f'You are an AI visual assistant that can analyze a single image. ' \
-                     f'You receive image, describe the {obj_dict["category_name"]} in the image including color and material. ' \
+                     f'You receive image, describe the {object_info} in the image including color and material. ' \
                      f'There is an example of the answer format: ' \
                      f'"The trash can is black and made of plastic". Give the answer in the provided format.' \
                      f'USER: <image>\n ASSISTANT:'
@@ -114,13 +117,17 @@ def describe_with_ferret(scenes):
             obj_dict["ferret_description"] = generated_descriptions[0]
 
 
-def describe_with_llava(scenes):
-    init_model(use_ferret=False)
+def describe_with_llava(scenes, abstract_mode):
+    init_llava()
    
     for scene_id in tqdm(scenes):
         scene_objects = scenes[scene_id]
         for obj_dict in scene_objects:
-            prompt = f'Describe the {obj_dict["category_name"]} in the image including color and material. ' \
+            if abstract_mode:
+                object_info = "object"
+            else:
+                object_info = {obj_dict["category_name"]}
+            prompt = f'Describe the {object_info} in the image including color and material. ' \
                      f'There is an example of the answer format: ' \
                      f'"The trash can is black and made of plastic"'
             generated_descriptions = describe_images([obj_dict["crop_path"]], 
@@ -130,11 +137,15 @@ def describe_with_llava(scenes):
             print(generated_descriptions)
             obj_dict["llava_description"] = generated_descriptions[0]
 
-def describe_with_kosmos(scenes):   
+def describe_with_kosmos(scenes, abstract_mode):   
     for scene_id in tqdm(scenes):
         scene_objects = scenes[scene_id]
         for obj_dict in scene_objects:
-            prompt = f'Describe the {obj_dict["category_name"]} in the image including color and material. ' \
+            if abstract_mode:
+                object_info = "object"
+            else:
+                object_info = {obj_dict["category_name"]}
+            prompt = f'Describe the {object_info} in the image including color and material. ' \
                      f'There is an example of the answer format: ' \
                      f'"The trash can is black and made of plastic"'
             generated_description = call_kosmos(obj_dict["crop_path"], prompt)
@@ -143,29 +154,39 @@ def describe_with_kosmos(scenes):
 
 def main():
     scene_id = "scene0011_00"
-    # coco_markup_path = f"/media/titrom/archive/mipt/scanrefer_tester/coco_markup/{scene_id}_coco/"
-    # coco_markup_path = f"/media/titrom/archive/mipt/scanrefer_tester/coco_markup/{scene_id}_coco/annotations_validated.json"
-    # coco_markup_path = f"/media/titrom/archive/mipt/scanrefer_tester/coco_markup/{scene_id}_coco/annotations_with_desc_v3.json"
-    # coco_markup_path = f"/media/titrom/archive/mipt/scanrefer_tester/coco_markup/{scene_id}_coco/desc_ferret_v2.json"
+    parser = argparse.ArgumentParser(description='Process video or image for detection, relation, or description.')
+    parser.add_argument('model', type=str, default=None, help='Model type: [ferret, llava, kosmos]')
+    parser.add_argument('reference', type=str, default= f"coco_markup/{scene_id}_coco/annotations_color_material.json", help='Path to existing reference markup')
+    parser.add_argument('prediction', type=str, default=f"coco_markup/{scene_id}_coco/annotations_color_material_ferret.json", help='Path to create prediction markup')
+    parser.add_argument('--abstract', action='store_true', help='Use abstract object in prompt')
+    args = parser.parse_args()
 
-    coco_markup_path = f"/media/titrom/archive/mipt/scanrefer_tester/coco_markup/{scene_id}_coco/desc_ferret_llava_v2.json"
-    processed_markup_path = f"/media/titrom/archive/mipt/scanrefer_tester/coco_markup/{scene_id}_coco/desc_ferret_llava_kosmos_v2.json"
+    assert args.model in ["ferret", "llava", "kosmos"], "Model type must be one from: [ferret, llava, kosmos]"
+    abstract_mode = True
+
+    coco_markup_path = args.reference
+    processed_markup_path = args.prediction
 
     if os.path.isdir(coco_markup_path):
-        train_scanref = "/media/titrom/archive/mipt/scanrefer_tester/scanrefer_markup/ScanRefer_filtered_train.json"
-        val_scanref = "/media/titrom/archive/mipt/scanrefer_tester/scanrefer_markup/ScanRefer_filtered_val.json"
+        train_scanref = "scanrefer_markup/ScanRefer_filtered_train.json"
+        val_scanref = "scanrefer_markup/ScanRefer_filtered_val.json"
         scanrefer_markup = read_scanrefer_markup(train_scanref, val_scanref)
         scenes = get_objects_from_coco_folder(coco_markup_path, scanrefer_markup, scene_id)
     else:
         with open(coco_markup_path, 'r') as json_file:
             scenes = json.load(json_file)
 
-    # describe_with_ferret(scenes)
-    # describe_with_llava(scenes)
-    describe_with_kosmos(scenes)
+    if args.model == "ferret":
+        describe_with_ferret(scenes, abstract_mode)
+    elif args.model == "llava":
+        describe_with_llava(scenes, abstract_mode)
+    elif args.model == "kosmos":
+        describe_with_kosmos(scenes, abstract_mode)
+    else:
+        raise ValueError("Model type must be one from: [ferret, llava, kosmos]")
     
     with open(processed_markup_path, 'w') as json_file:
-        json.dump(scenes, json_file)
+        json.dump(scenes, json_file, indent=4)
     print(f'Processed markup file saved to {processed_markup_path}')
 
 

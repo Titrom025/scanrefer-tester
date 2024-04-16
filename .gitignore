@@ -1,5 +1,4 @@
 *.npy
-*.json
 *.ply
 *.txt
 *.jpg

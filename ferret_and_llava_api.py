@@ -551,7 +551,7 @@ def read_json_markup(json_file):
     
     return markup_data
 
-def init_model(use_ferret):
+def init_ferret():
     global LOG_FILE
     global llava_chat
     global worker_addr
@@ -561,34 +561,40 @@ def init_model(use_ferret):
         print("Model was already initialized")
         return
     
-    if use_ferret:
-        model_name = 'ferret-7b-v1-3'
-        # model_name = 'ferret-13b-v1-3'
-        controller_url = 'http://localhost:10000'
+    model_name = 'ferret-7b-v1-3'
+    controller_url = 'http://localhost:10000'
 
-        ret = requests.post(controller_url + "/get_worker_address",
-                json={"model": model_name})
-        worker_addr = ret.json()["address"]
-        print(f"model_name: {model_name}, worker_addr: {worker_addr}")
+    ret = requests.post(controller_url + "/get_worker_address",
+            json={"model": model_name})
+    worker_addr = ret.json()["address"]
+    print(f"model_name: {model_name}, worker_addr: {worker_addr}")
 
-        LOG_FILE = 'ferret_bag3_descriptions_v2.txt'
-    else:
-        from llava_model import LLaVaChat
-        LOG_FILE = 'llava_bag3_descriptions_v3.txt'
-        model_path = "liuhaotian/llava-v1.6-vicuna-7b"
-        llava_chat = LLaVaChat(model_path)
+    LOG_FILE = 'ferret_log.txt'
+
+def init_llava():
+    global LOG_FILE
+    global llava_chat
+    global worker_addr
+    global model_name
+    
+    if LOG_FILE is not None:
+        print("Model was already initialized")
+        return
+    
+    from llava_model import LLaVaChat
+    LOG_FILE = 'llava_log.txt'
+    model_path = "liuhaotian/llava-v1.6-vicuna-7b"
+    llava_chat = LLaVaChat(model_path)
 
 
 def main():
     parser = argparse.ArgumentParser(description='Process video or image for detection, relation, or description.')
-    
     parser.add_argument('--image', type=str, default=None, help='Path to the image')
     parser.add_argument('--video', type=str, default=None, help='Path to the video')
     parser.add_argument('--prompt', type=str, default=None, help='Prompt to use for the image/video')
     parser.add_argument('--detect', action='store_true', help='Enable detection mode')
     parser.add_argument('--relation', action='store_true', help='Enable relation mode')
     parser.add_argument('--description', action='store_true', help='Enable description mode')
-    # parser.add_argument('--llava', action='store_true', help='Use LLaVa instead of ferret')
 
     args = parser.parse_args()
 

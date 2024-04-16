@@ -1,0 +1,366 @@
+{
+    "0": [
+        {
+            "annotation_id": 0,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_0_2027_jpg.rf.2a7215c068d097cc30f0dc5a65d70fbe.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2027_jpg.rf.2a7215c068d097cc30f0dc5a65d70fbe.jpg",
+            "kosmos_description": "in the picture. The object is a brown leather bar stool."
+        },
+        {
+            "annotation_id": 1,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_1_2027_jpg.rf.2a7215c068d097cc30f0dc5a65d70fbe.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2027_jpg.rf.2a7215c068d097cc30f0dc5a65d70fbe.jpg",
+            "kosmos_description": "on the brown leather bar stool."
+        }
+    ],
+    "1": [
+        {
+            "annotation_id": 2,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_2_593_jpg.rf.828aad4dd891c930939b5ad6f5da9af1.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/593_jpg.rf.828aad4dd891c930939b5ad6f5da9af1.jpg",
+            "kosmos_description": "on a brown chair."
+        }
+    ],
+    "10": [
+        {
+            "annotation_id": 17,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_17_240_jpg.rf.807eb537ba17edbbafe69250a3ec891b.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/240_jpg.rf.807eb537ba17edbbafe69250a3ec891b.jpg",
+            "kosmos_description": "in the picture. The image features a silver refrigerator with a stainless steel door."
+        }
+    ],
+    "11": [
+        {
+            "annotation_id": 18,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_18_1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "kosmos_description": "on the brown chair."
+        },
+        {
+            "annotation_id": 19,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_19_1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "kosmos_description": "on the table."
+        },
+        {
+            "annotation_id": 20,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_20_1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1947_jpg.rf.220bcbdf37496096d859f571a206b4b7.jpg",
+            "kosmos_description": "in the picture. The trash can is black, and it is made of a plastic material."
+        }
+    ],
+    "12": [
+        {
+            "annotation_id": 21,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_21_1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "kosmos_description": "on the brown chair."
+        },
+        {
+            "annotation_id": 22,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_22_1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "kosmos_description": "on the brown chair."
+        },
+        {
+            "annotation_id": 23,
+            "category_id": 3,
+            "category_name": "table",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/table_23_1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "description": "The brown wooden table.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1680_jpg.rf.9bb4ea265ba6e9c65a0028515aaf3d4f.jpg",
+            "kosmos_description": "on the table."
+        }
+    ],
+    "13": [
+        {
+            "annotation_id": 24,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_24_226_jpg.rf.9c1b74600cdcb2d12b1791fe514d490a.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/226_jpg.rf.9c1b74600cdcb2d12b1791fe514d490a.jpg",
+            "kosmos_description": "in the picture. The image features a silver refrigerator with a stainless steel door."
+        }
+    ],
+    "14": [
+        {
+            "annotation_id": 25,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_25_44_jpg.rf.e7ab840181ed1903f278438e683726ba.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/44_jpg.rf.e7ab840181ed1903f278438e683726ba.jpg",
+            "kosmos_description": "in the picture. The object is a brown leather bar stool."
+        }
+    ],
+    "15": [
+        {
+            "annotation_id": 26,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_26_2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "kosmos_description": "in the scene. The image features a dining table with a brown chair placed on it."
+        },
+        {
+            "annotation_id": 27,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_27_2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "kosmos_description": "in the scene. The image features a brown chair with a brown seat and back, placed in a room with a white table."
+        },
+        {
+            "annotation_id": 28,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_28_2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2012_jpg.rf.770df4f29f66c9fb83d2495136e8cc69.jpg",
+            "kosmos_description": "in the picture. The trash can is brown and made from wood."
+        }
+    ],
+    "16": [
+        {
+            "annotation_id": 29,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_29_1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "kosmos_description": "on the brown chair."
+        },
+        {
+            "annotation_id": 30,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_30_1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "kosmos_description": "in the picture. The image features a brown chair with a trash can in the background."
+        },
+        {
+            "annotation_id": 31,
+            "category_id": 5,
+            "category_name": "tv",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/tv_31_1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "description": "The tv is black and made of plastic.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1105_jpg.rf.8942ff8ad6cb776d7a1c926106b4aadc.jpg",
+            "kosmos_description": "in the picture. The object is a black trash can with a plastic lid."
+        }
+    ],
+    "17": [
+        {
+            "annotation_id": 32,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_32_745_jpg.rf.4b61d7ab1d3b43ea230c7fa0e3b28366.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/745_jpg.rf.4b61d7ab1d3b43ea230c7fa0e3b28366.jpg",
+            "kosmos_description": "in the picture. The image features a close-up of a brown trash can with a glass lid."
+        }
+    ],
+    "18": [
+        {
+            "annotation_id": 33,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_33_82_jpg.rf.b2894fee7e91a7a18c353e7f8ed3675d.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/82_jpg.rf.b2894fee7e91a7a18c353e7f8ed3675d.jpg",
+            "kosmos_description": "in the scene. The image features a brown chair placed under a dining table."
+        },
+        {
+            "annotation_id": 34,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_34_82_jpg.rf.b2894fee7e91a7a18c353e7f8ed3675d.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/82_jpg.rf.b2894fee7e91a7a18c353e7f8ed3675d.jpg",
+            "kosmos_description": "in the scene. The image features a close-up of a wooden chair with a trash can placed on top of it."
+        }
+    ],
+    "19": [
+        {
+            "annotation_id": 35,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_35_653_jpg.rf.b54d0d8f536d4e97b5a4aa83c44bf2a9.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/653_jpg.rf.b54d0d8f536d4e97b5a4aa83c44bf2a9.jpg",
+            "kosmos_description": "in the picture. The trash can is brown and made from leather."
+        }
+    ],
+    "2": [
+        {
+            "annotation_id": 3,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_3_469_jpg.rf.0855d50f2d2330e5427f092706b98992.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/469_jpg.rf.0855d50f2d2330e5427f092706b98992.jpg",
+            "kosmos_description": "in the scene. The image features a close-up of a trash can, which is black in color and made from plastic."
+        }
+    ],
+    "3": [
+        {
+            "annotation_id": 4,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_4_183_jpg.rf.96c578333526c17384cf12ae3aca9efc.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/183_jpg.rf.96c578333526c17384cf12ae3aca9efc.jpg",
+            "kosmos_description": "in the scene. The image features a brown dining table and chairs."
+        },
+        {
+            "annotation_id": 5,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_5_183_jpg.rf.96c578333526c17384cf12ae3aca9efc.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/183_jpg.rf.96c578333526c17384cf12ae3aca9efc.jpg",
+            "kosmos_description": "in the picture. The image features a silver refrigerator with a trash can in the bottom drawer."
+        }
+    ],
+    "4": [
+        {
+            "annotation_id": 6,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_6_2297_jpg.rf.6fe840feda9776d0f6e13094066aae65.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2297_jpg.rf.6fe840feda9776d0f6e13094066aae65.jpg",
+            "kosmos_description": "in the scene. The object in this image is a brown chair placed next to a dining table. The dining table is surrounded by a window, which provides natural light to the area."
+        },
+        {
+            "annotation_id": 7,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_7_2297_jpg.rf.6fe840feda9776d0f6e13094066aae65.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2297_jpg.rf.6fe840feda9776d0f6e13094066aae65.jpg",
+            "kosmos_description": "in the scene. The image features a dining table with a brown chair and a trash can in the corner."
+        }
+    ],
+    "5": [
+        {
+            "annotation_id": 8,
+            "category_id": 4,
+            "category_name": "trash_can",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/trash_can_8_1739_jpg.rf.52e153e4f97f129fd6fb166630844c08.jpg",
+            "description": "The trash can is gray and made of iron",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1739_jpg.rf.52e153e4f97f129fd6fb166630844c08.jpg",
+            "kosmos_description": "in the picture. The trash can is black, and it is made of a plastic material."
+        }
+    ],
+    "6": [
+        {
+            "annotation_id": 9,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_9_2329_jpg.rf.574ab8a4c57b4a8af5797c151adc6a1b.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2329_jpg.rf.574ab8a4c57b4a8af5797c151adc6a1b.jpg",
+            "kosmos_description": "in the picture. The image features a dining table with a glass top and a brown chair."
+        },
+        {
+            "annotation_id": 10,
+            "category_id": 4,
+            "category_name": "trash_can",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/trash_can_10_2329_jpg.rf.574ab8a4c57b4a8af5797c151adc6a1b.jpg",
+            "description": "The trash can is gray and made of iron",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/2329_jpg.rf.574ab8a4c57b4a8af5797c151adc6a1b.jpg",
+            "kosmos_description": "in the picture. The trash can is black, and it is made of a plastic material."
+        }
+    ],
+    "7": [
+        {
+            "annotation_id": 11,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_11_1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "kosmos_description": "in the picture. The trash can is made of brown leather."
+        },
+        {
+            "annotation_id": 12,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_12_1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "kosmos_description": "in the picture. The object is a brown leather bar stool."
+        },
+        {
+            "annotation_id": 13,
+            "category_id": 1,
+            "category_name": "chair",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/chair_13_1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "description": "The chair is brown and made of wood and leather.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "kosmos_description": "in the scene. The image features a dining table with several chairs placed around it."
+        },
+        {
+            "annotation_id": 14,
+            "category_id": 5,
+            "category_name": "tv",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/tv_14_1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "description": "The tv is black and made of plastic.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/1079_jpg.rf.5addbce2e01e4b5abb3c8065ae60a11e.jpg",
+            "kosmos_description": "in the picture. The trash can is black, and it is made of black plastic."
+        }
+    ],
+    "8": [
+        {
+            "annotation_id": 15,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_15_291_jpg.rf.79fed2ed61569ada48062780d8c70a11.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/291_jpg.rf.79fed2ed61569ada48062780d8c70a11.jpg",
+            "kosmos_description": "in the scene. The image features a silver refrigerator with a stainless steel finish."
+        }
+    ],
+    "9": [
+        {
+            "annotation_id": 16,
+            "category_id": 2,
+            "category_name": "refrigerator",
+            "crop_path": "/media/titrom/archive/mipt/scanrefer_tester/cropped/refrigerator_16_201_jpg.rf.eb46f1526a8d6d6fc188534a225c6c94.jpg",
+            "description": "The refrigerator is silver and made of stainless steel.",
+            "image_path": "/media/titrom/archive/mipt/scanrefer_tester/coco_markup/scene0011_00_coco/201_jpg.rf.eb46f1526a8d6d6fc188534a225c6c94.jpg",
+            "kosmos_description": "in the scene. The image features a silver trash can with a black lid."
+        }
+    ]
+}
